@@ -1,0 +1,232 @@
+@import "global.css";
+
+html {
+    font-size: 62.5%;
+    font-family: "Space Grotesk", serif;
+}
+
+#root {
+    max-width: 124rem;
+    margin: 0 auto;
+}
+
+
+/************** 헤더 ***************/
+header{
+    margin-top: 6rem;
+}
+
+#header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header-wrapper img {
+    width: 22rem;
+}
+#header-nav a{
+    text-decoration: none;
+    color: var(--black);
+    margin-right: 4rem;
+    font-weight: 400;
+}
+#header-nav a:last-child {
+    margin-right: 0;
+    padding: 2rem 3.5rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+}
+
+/************ 메인 ****************/
+main {
+    margin-top: 7rem;
+}
+
+/** 탑배너 **/
+.topBanner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.topBanner-content h1 {
+    line-height: 6rem;
+}
+.topBanner-content p {
+    font-weight: 400;
+    margin-top: 3.5rem;
+    line-height: 3rem;
+}
+.topBanner-content button {
+    border: none;
+    background-color: var(--black);
+    color: #FFFFFF;
+    padding: 2rem 3.5rem;
+    border-radius: 1rem;
+    font-weight: 400;
+    margin-top: 5.5rem;
+}
+
+.topBanner-image {
+    height: 51.5rem;
+}
+
+/** 컴퍼니 리스트 **/
+.company-list {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+
+/** 서비스 배너 **/
+.service-banner {
+    display: flex;
+    align-items: center;
+    margin-top: 14rem;
+    gap: 4rem;
+}
+.service-f4-wrapper {
+    background-color: var(--green);
+    width: 18rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** 서비스 그리드 **/
+
+.service-grid-wrapper {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4rem;
+}
+
+.grid-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: flex-start;
+}
+
+.grid-content img {
+    width: 16rem;
+}
+.grid-image {
+    display: flex;
+    align-items: center;
+}
+
+.grid-div {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    height: 31rem;
+    padding: 5rem 0;
+    border-radius: 5rem;
+    border: 1px solid var(--black);
+}
+
+.grid-seo {
+    background-color: var(--grey);
+}
+.grid-seo p {
+    background-color: var(--green);
+    padding: 0.5rem;
+}
+
+.grid-ppc {
+    background-color: var(--green);
+}
+.grid-ppc p {
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.grid-snm {
+    background-color: var(--black);
+}
+.grid-snm p{
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.grid-email {
+    background-color: var(--grey);
+}
+.grid-email p {
+    background-color: var(--green);
+    padding: 0.5rem;
+}
+
+.grid-creation {
+    background-color: var(--green);
+}
+.grid-creation p {
+    background-color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.grid-track {
+    background-color: var(--black);
+}
+.grid-track p {
+    background-color: var(--green);
+    padding: 0.5rem;
+}
+
+
+/** PROPOSAL **/
+.proposal-wrapper {
+    margin-top: 10rem;
+    background-color: var(--grey);
+    border-radius: 5rem;
+    padding-left: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.proposal-content {
+    font-weight: 400;
+}
+
+.proposal-content p {
+    margin-top: 2.5rem;
+}
+.proposal-content button {
+    margin-top: 2.5rem;
+    padding: 2rem 3.5rem;
+    border: none;
+    background-color: var(--black);
+    color: #FFFFFF;
+    font-weight: 400;
+    border-radius: 1rem;
+}
+.proposal-image {
+}
+
+
+
+/**** 케이스 배너 ****/
+.case-banner {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.case-banner-wrapper {
+    background-color: var(--green);
+    width: 27rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*** 케이스 Description ***/
