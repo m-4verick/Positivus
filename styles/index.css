@@ -334,9 +334,61 @@ main {
 
 /** TEAM DESCRIPTION **/
 .team-description {
+    width: 100%;
     margin-top: 8rem;
+}
 
+.team-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.team-button button {
+    margin-top: 4rem;
+ padding: 2rem 7.6rem;
+    border: none;
+    background-color: var(--black);
+    color: #FFFFFF;
+    border-radius: 1rem;
+
+}
+
+.team-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+}
+
+.team-crew {
+    position: relative;
+    border: 1px solid var(--black);
+    border-radius: 3rem;
+    box-shadow: 0 0.6rem 0 0 #000000;
+    padding: 4rem 3.5rem;
+}
+
+.team-profile {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: 2.8rem;
+}
+.team-profile h1{
+    font-weight: 500;
+    line-height: 3.5rem;
+}
+.team-profile p {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.team-details {
+    padding-top: 2.8rem;
+}
+
+.absol {
+    position: absolute;
+    top: 4rem;
+    right: 3.5rem;
 }
