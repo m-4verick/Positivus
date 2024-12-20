@@ -126,8 +126,9 @@ main {
     justify-content: space-evenly;
     height: 31rem;
     padding: 5rem 0;
-    border-radius: 5rem;
+    border-radius: 3rem;
     border: 1px solid var(--black);
+    box-shadow: 0 0.6rem 0 0 #000000;
 }
 
 .grid-seo {
@@ -183,7 +184,7 @@ main {
 .proposal-wrapper {
     margin-top: 10rem;
     background-color: var(--grey);
-    border-radius: 5rem;
+    border-radius: 3rem;
     padding-left: 6rem;
     display: flex;
     justify-content: space-between;
@@ -230,3 +231,112 @@ main {
 }
 
 /*** 케이스 Description ***/
+.case-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--dark);
+    color: #FFFFFF;
+    margin-top: 8rem;
+    border-radius: 3rem;
+    padding: 7rem 0;
+}
+.case-description img {
+    margin-top: 2rem;
+    max-width: 14rem;
+}
+
+.case-div {
+    padding: 0 6rem;
+    border-right: 1px solid #FFFFFF;
+}
+
+.case-div:last-child {
+    border-right: none;
+}
+
+
+/* process banner */
+
+.process-banner {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.process-banner-wrapper {
+    background-color: var(--green);
+    width: 41rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* process */
+
+.process-description {
+    margin-top: 8rem;
+}
+.process-wrapper {
+    padding: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--black);
+    border-radius: 3rem;
+    margin-top: 3rem;
+    background-color: var(--grey);
+    box-shadow: 0 0.6rem 0 0 #000000;
+}
+
+.process-div {
+    display: flex;
+    justify-content: space-between;
+    /*padding-bottom: 3rem;*/
+    /*border-bottom: 1px solid var(--black);*/
+}
+.process-title {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.toggle-process {
+    display: none;
+    margin-top: 3rem;
+    padding: 3rem 0;
+    border-top: 1px solid var(--black);
+}
+
+.consultation .toggle-process {
+    display: block;
+}
+
+.consultation {
+    background-color: var(--green);
+}
+
+
+/** 팀 배너 **/
+.team-banner {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.team-banner-wrapper {
+    background-color: var(--green);
+    width: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/** TEAM DESCRIPTION **/
+.team-description {
+    margin-top: 8rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
