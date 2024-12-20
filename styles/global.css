@@ -6,6 +6,12 @@
     --black: #000000;
 }
 
+
+html {
+    font-size: 62.5%;
+    font-family: "Space Grotesk", serif;
+}
+
 /* PC 폰트 사이즈 */
 .pc-f5 {
     font-size: 5rem;

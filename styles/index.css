@@ -1,12 +1,7 @@
 @import "global.css";
 
-html {
-    font-size: 62.5%;
-    font-family: "Space Grotesk", serif;
-}
-
 #root {
-    max-width: 124rem;
+    width: 124rem;
     margin: 0 auto;
 }
 
@@ -391,4 +386,56 @@ main {
     position: absolute;
     top: 4rem;
     right: 3.5rem;
+}
+
+
+/** 증명서 배너 **/
+.testimonials-banner {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.testimonials-banner-wrapper {
+    background-color: var(--green);
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** 증명서 설명 **/
+.testimonials-description {
+    margin-top: 8rem;
+}
+
+
+/** contact banner **/
+.contact-banner {
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.contact-banner-wrapper {
+    background-color: var(--green);
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** contact **/
+
+/** 공사 예정 **/
+
+
+
+
+footer {
+    margin-top: 14rem;
+    height: 50rem;
+    color: #FFFFFF;
+    background-color: var(--dark);
+    border-radius: 3rem 3rem 0 0;
 }
